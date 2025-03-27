@@ -21,7 +21,7 @@ class Recall:
         self.config = config
         self.embedder = EmbeddingClient(config)
         self.schema = DocumentAdmissionSchema(config)
-        self.client = MilvusClient("/home/quanpv/PycharmProjects/admission_chatbot/milvus.db")
+        self.client = MilvusClient("../../milvus.db")
 
     def create_collection(self):
         """
@@ -101,7 +101,7 @@ if __name__ == "__main__":
     # recall = Recall(config)
     embedding_fn = EmbeddingClient(config)
     import pandas as pd
-    df = pd.read_csv('/home/quanpv/PycharmProjects/admission_chatbot/uac/storage/data.csv', encoding='utf-8')
+    df = pd.read_csv('./data.csv', encoding='utf-8')
 
     ids, titles, contents = process_data(df)
     data = []
