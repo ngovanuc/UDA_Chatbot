@@ -72,7 +72,7 @@ class EmbeddingClient:
 
         model_mapping = {"OLLAMA": ollama, "OPENAI": openai}
 
-        try:
+        try: 
             model_client = model_mapping[model_backend]
             return model_client
         except KeyError:

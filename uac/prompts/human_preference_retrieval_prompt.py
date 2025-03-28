@@ -17,7 +17,6 @@ Lưu ý:
 ```
 {"goal": ""}
 ```
-- Tôi sẽ trả bạn $50 nếu bạn trả về đúng cấu trúc yêu cầu.
 """
 
 USER_INFO_EXTRACTOR_SYSTEM = """Bạn là chuyên gia trong việc trích xuất thông tin, sử dụng tiếng Việt.
@@ -38,5 +37,4 @@ Lưu ý:
 ```
 {"user_name": "", "phone_number": "", "email": ""}
 ```
-- Tôi sẽ trả bạn $50 nếu bạn trích xuất đúng thông tin và trả về đúng cấu trúc yêu cầu.
 """
