@@ -119,5 +119,4 @@ Lưu ý quan trọng:
 Ví dụ:
 Câu đề xuất sai: Bạn muốn biết thông tin về học phí của trường Đại học Đông Á?
 Câu đề xuất đúng: Thông tin về học phí của trường Đại học Đông Á
-- Tôi sẽ trả cho bạn $50 nếu bạn hoàn thành tốt nhiệm vụ.
 """

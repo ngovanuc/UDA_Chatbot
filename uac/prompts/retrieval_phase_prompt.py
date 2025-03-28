@@ -12,7 +12,6 @@ Lưu ý:
 - IMPORTANT: Your answer should be in **Vietnamese**.
 - Đầu ra của bạn luôn có cấu trúc JSON, key là "contextualized_query" và value là câu hỏi đã được đặt lại ở định dạng chuỗi.
 - Nếu câu hỏi đã đầy đủ thông tin bạn hãy trả lại câu hỏi ban đầu.
-- Tôi sẽ trả cho bạn $50 nếu bạn hoàn thành tốt nhiệm vụ.
 """
 
 QUERY_REWRITING_SYSTEM_PROMPT = """Bạn là chuyên gia trong việc phân tích và xử lý câu hỏi về tuyển sinh của người dùng thành các ý nhỏ hoàn chỉnh.
@@ -31,5 +30,4 @@ Lưu ý:
 - IMPORTANT: Your answer should be in **Vietnamese**.
 - Đầu ra của bạn luôn có cấu trúc JSON, key là "rewritten_query" và các câu hỏi đề xuất Tiếng Việt được đưa ra trong cùng một danh sách hoặc là danh sách chỉ gồm câu hỏi ban đầu.
 - Các câu hỏi phụ phải rõ ràng, riêng biệt và giữ nguyên ý nghĩa.
-- Tôi sẽ trả cho bạn $50 nếu bạn hoàn thành tốt nhiệm vụ.
 """
